@@ -12,13 +12,17 @@ height:100vh;
 header{grid-area:cabecalho;}
 .logo h1{color:#274083; margin-left:10px;}
 .logo img{width: 80px;}
-.logo{display:flex; align-items: center; border:1px solid red; padding:10px 30px;}
+.logo{display:flex; align-items: center; padding:10px 30px;}
 
 /*MAIN*/
-main{grid-area:principal;}
+main{grid-area:principal; background: linear-gradient(to right, #48a0df, #274083); display:flex; align-items: center; padding-left: 50px; padding-top: 5px; padding-bottom: 5px; line-height: 1cm;}
+main figure{width:200px;}
+main figure img{width:100%;}
+main h1{font-size:40px; width:80%; margin-bottom: 30px;}
+main h3{width:80%;}
 
 /*ASIDE*/
-aside{grid-area:formulario;}
+aside{grid-area:formulario; background-color: #274083;}
 
 /*FOOTER*/
 footer{grid-area:rodape;}
